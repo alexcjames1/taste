@@ -1,0 +1,22 @@
+@import "../../css/theme.scss";
+
+/////////LOGO STYLES/////////
+.logo img{
+    height: 60px;
+    width: 60px;
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/////////CONTENT STYLES/////////
+.content {
+    color: $secondaryColor;
+    padding-left: 3px;
+}
+.content h5{
+    padding-top: 8px;
+    margin-bottom: -10px;
+}

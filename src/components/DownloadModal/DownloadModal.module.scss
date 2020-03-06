@@ -1,0 +1,135 @@
+@import "../../css/theme.scss";
+
+/////////MODAL STYLES/////////
+.setup {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/////////TEXT HEADER/////////
+.heading {
+    text-align: center;
+}
+.lead {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+@media (min-width: 575px) {
+    .lead {
+        max-width: 60%;
+    }
+}
+
+/////////TEXT FOOTER/////////
+.modalFooter {
+    text-align: center;
+}
+.modalFooter h5 {
+    font-weight: $bold;
+}
+.modalFooter p {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 575px) {
+    .modalFooter p {
+        max-width: 60%;
+    }
+}
+.modalFooter a {
+    color: $contributeColor;
+}
+
+/////////SCAFFOLDING/////////
+.card, .mediaContent, .media {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+}
+.card {
+    min-width: 190px;
+    min-height: 190px;
+}
+.mediaContent {
+    margin-top: 25px;
+    margin-left: 3px;
+}
+.row {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (min-width: 837px) {
+    .row {
+        flex-basis: 500px;
+        flex-wrap: nowrap;
+    }
+}
+.col {
+    min-width: 0;
+    text-align: left;
+    margin: 3px;
+}
+@media (min-width: 768px) {
+    .col {
+        display: flex;
+    }
+}
+
+/////////BASE ICON STYLES/////////
+.icon {
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 2px 25px 0 rgba(0,0,0,0.05);
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -28px;
+    margin-left: 18px;
+    position: relative;
+    z-index: 10;
+}
+.icon i {
+    color: $darkBackground;
+    font-size: 26px;
+}
+
+/////////ICON COLORS/////////
+.helpIcon {
+    background-color: $helpColor;
+}
+.selfIcon {
+    background-color: $selfColor;
+}
+.contributeIcon {
+    background-color: $contributeColor;
+}
+.shareIcon {
+    background-color: $shareColor;
+}
+
+/////////BUTTON STYLES/////////
+.button {
+    margin-top: auto;
+    margin-bottom: 3px;
+}
+.helpButton {
+    color: $helpColor;
+}
+.selfButton {
+    color: $selfColor;
+}
+.contributeButton {
+    color: $contributeColor;
+}
+.shareButton {
+    color: $shareColor;
+}

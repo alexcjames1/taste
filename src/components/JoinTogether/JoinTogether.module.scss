@@ -1,0 +1,59 @@
+@import "../../css/theme.scss";
+
+/////////SCAFFOLDING/////////
+.section .row{
+    align-items: center;
+}
+.section {
+    padding-top: 40px;
+}
+
+/////////MEDIA STYLES/////////
+.media {
+    margin-top: 30px;
+}
+@media (min-width: 575px) {
+    .media {
+        height: 597;
+        position: relative;
+    overflow: hidden;
+        width: 888px;
+        margin-top: 0px;
+    }
+}
+
+/////////SUBTITLE STYLES/////////
+.subTitle {
+    color: $tertiaryColor;
+    font-size: $h4mobile;
+}
+@media (min-width: 768px) {
+    .subTitle {
+        font-size: $h4;
+    }
+}
+
+/////////TITLE STYLES/////////
+.title {
+    color: #212121;
+    font-size: $h1mobile;
+    margin-top: 8px;
+    margin-bottom: -4px;
+    line-height: 1.2em;
+}
+@media (min-width: 768px) {
+    .title {
+        font-size: $h1;
+    }
+}
+
+/////////CONTENT STYLES/////////
+.content {
+    color: #424242;
+    font-size: $bodyMobile;
+}
+@media (min-width: 575px) {
+    .content {
+        font-size: $body;
+    }
+}

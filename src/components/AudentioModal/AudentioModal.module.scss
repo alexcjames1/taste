@@ -1,0 +1,140 @@
+@import "../../css/theme.scss";
+
+/////////MODAL NAVIGATION/////////
+.modalNavigation {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+}
+.close {
+    margin-left: auto;
+    color: $baseFontColor;
+}
+.closeButton {
+    text-align: right;
+}
+.backButton {
+    color: $darkButton;
+}
+
+/////////SCAFFOLDING/////////
+@media (min-width: 575px) {
+    .section {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+.row {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.col {
+    border-top: solid;
+    border-color: #d9d7d7;
+    border-width: 1px;
+    margin-top: 45px;
+    padding-top: 35px;
+    align-items: center;
+}
+@media (min-width: 575px) {
+    .col {
+        border-left: solid;
+        border-color: $borderColor;
+        border-width: 1px;
+        border-top: none;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
+
+/////////HEADING STYLES/////////
+.heading {
+    font-size: $h3;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.heading h3 {
+    font-weight: $bold;
+}
+.subheading {
+    font-size: $h4;
+}
+.subheading h4 {
+    font-weight: $bold;
+}
+
+/////////BODY STYLES/////////
+.content {
+    margin-bottom: 40px;
+}
+@media (min-width: 575px) {
+    .content {
+        max-width: 70%;
+    }
+}
+
+/////////FOOTER STYLES/////////
+.modalFooter {
+    text-align: center;
+}
+.modalFooter h5 {
+    font-weight: $bold;
+}
+.modalFooter p {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/////////BUTTON STYLES/////////
+// .learnMoreButton {
+//     background-color: $darkButton;
+//     color: #fff;
+//     @include ButtonThin;
+// }
+// .learnMoreButton:hover {
+//     box-shadow: $shadowHover;
+// }
+
+/////////CARD STYLES/////////
+.card {
+    @include border;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.card:hover {
+    border-color: transparent;
+    background-color: $lightSection;
+    box-shadow: $boxShadow;
+}
+.card .cardContent {
+    padding: 20px;
+}
+
+/////////ICON STYLES/////////
+.icon {
+    @include icon;
+}
+.helpIcon {
+    background-color: $helpColor;
+}
+
+/////////BUTTON STYLES/////////
+.buttonHelp {
+    color: $helpColor;
+    position: absolute;
+    bottom: 0;
+    left: 3;
+    padding-bottom: 30px;
+}
+.buttonHelp:hover {
+    text-decoration: $underlineHover;
+}

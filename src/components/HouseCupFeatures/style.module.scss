@@ -1,0 +1,40 @@
+@import "../../css/theme.scss";
+
+/////////TITLE STYLES/////////
+.title {
+    color: $tertiaryColor;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-top: 1px;
+    border-style: solid;
+    border-color: $borderColor;
+    width: 30%;
+    padding: 15px 0;
+    font-size: $h5mobile;
+}
+@media (min-width: 575px) {
+    .title {
+        width: 15%;
+        font-size: $h5;
+    }
+}
+
+/////////BODY STYLES/////////
+.lead {
+    display: inline;
+}
+.paragraph {
+    display: inline;
+}
+
+/////////SCAFFOLDING STYLES/////////
+.col {
+    font-size: $h5mobile;
+    margin: 10px 0;
+}
+@media (min-width: 575px) {
+    .col {
+        margin: 0px 0;
+        font-size: $h5;
+    }
+}

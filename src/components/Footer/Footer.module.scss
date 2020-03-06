@@ -1,0 +1,31 @@
+@import "../../css/theme.scss";
+
+/////////ROW STYLES/////////
+.legal {
+    align-items:  center;
+    margin-top: -50px;
+}
+
+/////////ICON STYLES/////////
+.icon {
+    display: inline;
+    padding: 14px;
+    font-size: 20px;
+}
+.icon a {
+    color: $darkBackground;
+}
+
+/////////COPYRIGHT STYLES/////////
+.copyright a{
+    font-size: 14px;
+    color: $darkBackground;
+}
+.audentio {
+    text-decoration: underline;
+}
+
+/////////SOCIAL MEDIA/////////
+.socialMedia {
+    text-align: right;
+}
