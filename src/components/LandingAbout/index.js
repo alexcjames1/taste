@@ -1,1 +1,1 @@
-export { default } from './EasyBeautifulInterface';
+export { default } from './LandingAbout';

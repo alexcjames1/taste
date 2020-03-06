@@ -13,5 +13,6 @@ export { default as HouseCupFeatures } from './HouseCupFeatures';
 export { default as ArticleCards } from './ArticleCards';
 export { default as Attractions } from './Attractions';
 export { default as BuyTickets } from './BuyTickets';
+export { default as LandingAbout } from './LandingAbout';
 
 export { default as Footer } from './Footer';

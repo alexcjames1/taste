@@ -22,7 +22,7 @@
 /////////SUBTITLE/////////
 .subTitle {
     font-weight: $bold;
-    color: $tertiaryColor;
+    color: $baseFontColor;
     font-size: $h4mobile;
 }
 @media (min-width: 575px) {
@@ -46,12 +46,12 @@
 
 /////////CONTENT/////////
 .content {
-    color: $secondaryColor;
+    color: $baseFontColor;
     font-size: $bodyMobile;
 }
 @media (min-width: 575px) {
     .content {
-        color: $secondaryColor;
+        color: $baseFontColor;
         font-size: $body;
     }
 }

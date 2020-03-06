@@ -14,16 +14,19 @@ export default class BuyTickets extends Component {
 
                     <Col xs="12" sm="5" className={style.teamInfo}>
                         <div className={style.header}>
-                            <h4 className={style.subTitle}>
-                                Join together, Win together
-                            </h4>
                             <div className={style.title}>
-                                <h2>Teams or individuals can join houses.</h2>
+                                <h2>Consectetur purus</h2>
                             </div>
                         </div>
                         <div className={style.content}>
                             <p>
-                                Ut dui felis, elementum quis urna et, porttitor consequat nisl. Sed libero lorem, hendrerit a egestas auctor, posuere sit amet ex. Praesent facilisis finibus cursus.                                </p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Consectetur purus ut faucibus pulvinar elementum
+                                integer. Risus viverra adipiscing at in tellus integer
+                                feugiat scelerisque varius. Dictum at tempor commodo
+                                ullamcorper a.
+                            </p>
                         </div>
                     </Col>
 
