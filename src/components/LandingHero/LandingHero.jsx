@@ -14,7 +14,7 @@ export default class LandingHero extends Component {
         return(
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
-                    <Col sm="4" className={style.heroContent}>
+                    <Col xs="12" sm="4" className={style.heroContent}>
                         <h1>Tincidunt lobortis</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,

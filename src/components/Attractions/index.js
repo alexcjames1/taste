@@ -1,1 +1,1 @@
-export { default } from './TeamsOrIndividuals';
+export { default } from './Attractions';
