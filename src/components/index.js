@@ -8,7 +8,7 @@ export { default as Header } from './Header';
 export { default as Header__nav } from './Header__nav';
 export { default as Logo } from './Logo';
 
-export { default as HouseCupHero } from './HouseCupHero';
+export { default as LandingHero } from './LandingHero';
 export { default as HouseCupFeatures } from './HouseCupFeatures';
 export { default as TeamsOrIndividuals } from './TeamsOrIndividuals';
 export { default as ArticleCards } from './ArticleCards';

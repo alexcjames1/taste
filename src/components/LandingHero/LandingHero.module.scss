@@ -2,11 +2,16 @@
 
 
 /////////BACKGROUND STYLES/////////
-.HouseCupHero {
+.section {
      background: url("./images/wine-hero.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      overflow: hidden;
      position: relative;
      height: 725px;
+}
+.heroContent {
+    color: #fff;
+    max-width: 200px;
+    margin-top: 240px;
 }
