@@ -3,14 +3,11 @@
 //////////input//////////
 .input {
     display: block;
-    padding: $paddingStandard;
+
     width: 100%;
     height: 35px;
-    margin-top: $marginStandard;
-    margin-bottom: $marginStandard;
-    background: $accentColor;
+
     border: none;
-    border-radius: $borderRadius;
 }
 //////////text area//////////
 .comment {
@@ -19,21 +16,14 @@
 
 //////////form boundaries//////////
 .contactForm {
-    background: $tertiaryColor;
-    border-radius: $borderRadius;
+    background-color: #3D441D;
+    border-radius: 4px;
+    height: 400px;
 }
 
 //////////form inside//////////
 .form {
-    padding: $paddingStandard;
-}
-@media (min-width: 768px) {
-    .contactForm {
-        background: $tertiaryColor;
-        height: 350px;
-        width: 350px;
-        border-radius: $borderRadius;
-    }
+
 }
 
 //////////submit button//////////
@@ -47,12 +37,6 @@
     margin-right: 130px;
     text-transform: uppercase;
     color: #fff;
-}
-@media (min-width: 768px) {
-    .submit {
-        margin-left: 110px;
-        margin-right: 110px;
-    }
 }
 
 //////////form title//////////

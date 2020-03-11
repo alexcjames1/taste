@@ -7,12 +7,12 @@ import { Section } from '../../components';
 export default class Footer extends Component {
     render() {
         return(
-            <Section>
+            <Section className={style.section} kind="dark" size="normal">
                 <Row className={style.legal}>
 
                     <Col>
                         <p className={style.copyright}>
-                            <a href="https://www.audent.io/" target="_blank"> Made with <i className="mdi mdi-heart"></i> by <span className={style.audentio}>Audentio</span></a>
+                            &copy;2020 Taste Wine Fest
                         </p>
                     </Col>
                     <Col className={style.socialMedia}>

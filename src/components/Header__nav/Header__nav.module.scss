@@ -1,8 +1,10 @@
 @import "../../css/theme.scss";
 
 /////////LOGO STYLES/////////
-.slackLogo {
-    width: 18px;
-    margin-right: 7px;
-    margin-bottom: -3px;
+.menuItem {
+    display: inline;
+    padding: 15px;
+}
+.navLink {
+    color: #fff;
 }

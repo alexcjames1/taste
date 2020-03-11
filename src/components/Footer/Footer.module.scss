@@ -3,25 +3,29 @@
 /////////ROW STYLES/////////
 .legal {
     align-items:  center;
-    margin-top: -50px;
 }
 
 /////////ICON STYLES/////////
 .icon {
     display: inline;
     padding: 14px;
-    font-size: 20px;
+    font-size: 16px;
+}
+.icon a {
+    color: #fff;
 }
 
 /////////COPYRIGHT STYLES/////////
-.copyright a{
+.copyright {
     font-size: 14px;
-}
-.audentio {
-    text-decoration: underline;
+    color: #fff;
 }
 
 /////////SOCIAL MEDIA/////////
 .socialMedia {
     text-align: right;
+}
+
+.section {
+    background: #3D3935;
 }
