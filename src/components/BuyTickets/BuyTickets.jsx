@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './BuyTickets.module.scss';
-import rectangle from './images/rectangle.png';
+import wineImage from './images/wine-image.jpg';
 import {MediaComponent} from '../';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
@@ -33,7 +33,7 @@ export default class BuyTickets extends Component {
                     <Col xs="12" sm="6">
                         <div className={style.media}>
                             <div className={style.mediaFigure}>
-                                <img src={rectangle} alt="#" />
+                                <img src={wineImage} alt="#" />
                             </div>
                         </div>
                     </Col>

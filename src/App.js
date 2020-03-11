@@ -9,7 +9,7 @@ import './css/style.scss';
 function App() {
   return (
       <div className="App">
-          <Router>
+          <Router basename="/taste">
                <Route exact path="/" component={Home} />
                <Route exact path="/download" component={Download} />
            </Router>
