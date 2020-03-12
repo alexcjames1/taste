@@ -16,13 +16,13 @@ export default class Header__nav extends React.Component {
                             <Link to={"/"} className={style.navLink}>HOME</Link>
                         </li>
                         <li className={style.menuItem}>
-                            <Link to={"/Contact"} className={style.navLink}>ABOUT</Link>
+                            <Link to={"/about"} className={style.navLink}>ABOUT</Link>
                         </li>
                         <li className={style.menuItem}>
-                            <Link to={"/Contact"} className={style.navLink}>CONTACT</Link>
+                            <Link to={"/contact"} className={style.navLink}>CONTACT</Link>
                         </li>
                         <li className={style.menuItem}>
-                            <Link to={"/Contact"} className={style.navLink}>TICKETS</Link>
+                            <Link to={"/tickets"} className={classy(style.navLink, style.button)}>TICKETS</Link>
                         </li>
                     </ul>
                 </nav>

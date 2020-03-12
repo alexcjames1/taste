@@ -62,7 +62,14 @@
 .mediaButton {
     font-size: 12px;
     font-weight: 600;
+    background: #3D441D;
+    padding: 20px 40px 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+
 }
 .mediaButton:hover {
-    text-decoration: $underlineHover;
+    background: #5f6b27;
 }

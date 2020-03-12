@@ -8,6 +8,7 @@ import entertainment from './images/entertainment.png';
 import {MediaComponent} from '../';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section, Card } from '../../components';
+import {Link} from 'react-router-dom';
 
 export default class Attractions extends Component {
     render() {
@@ -16,20 +17,28 @@ export default class Attractions extends Component {
                 <Row className={style.rowTop}>
 
                     <Col xs="12" sm="6">
-                        <Card image={wineries} title="Wineries" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Order Now" className="card" />
+                        <Link to={"/wineries"} className={style.navLink}>
+                            <Card image={wineries} title="Wineries" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Order Now" className="card" />
+                        </Link>
                     </Col>
                     <Col xs="12" sm="6">
-                        <Card image={food} title="Purveyors" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Become a driver" className="card" />
+                        <Link to={"/purveyors"} className={style.navLink}>
+                            <Card image={food} title="Purveyors" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Order Now" className="card" />
+                        </Link>
                     </Col>
 
                 </Row>
                 <Row className={style.rowBottom}>
 
                     <Col xs="12" sm="6">
-                        <Card image={entertainment} title="Entertainment" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Order Now" className="card" />
+                        <Link to={"/entertainment"} className={style.navLink}>
+                            <Card image={entertainment} title="Entertainment" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Order Now" className="card" />
+                        </Link>
                     </Col>
                     <Col xs="12" sm="6">
-                        <Card image={location} title="Venue" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Become a driver" className="card" />
+                        <Link to={"/venue"} className={style.navLink}>
+                            <Card image={location} title="Venue" paragraph="Schedule a plow to clear your driveway or sidewalk so you don't need to freeze." button="Order Now" className="card" />
+                        </Link>
                     </Col>
 
                 </Row>
