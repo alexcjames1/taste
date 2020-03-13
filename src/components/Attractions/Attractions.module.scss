@@ -1,5 +1,22 @@
 @import "../../css/theme.scss";
 
+.card {
+    border-radius: 8px;
+    align-items: center;
+    border-style: solid;
+    border-color: $borderColor;
+    border-width: 1px;
+    min-width: 0;
+    display: block;
+
+    &.align-top {align-items: flex-start;}
+    &.align-stretch {align-items: stretch;}
+}
+.card:hover {
+    box-shadow: $boxShadow;
+    border-color: transparent;
+}
+
 /////////SCAFFOLDING/////////
 .section .row {
     align-items: center;

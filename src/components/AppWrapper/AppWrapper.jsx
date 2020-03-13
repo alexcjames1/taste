@@ -9,7 +9,7 @@ export default class AppWrapper extends Component {
         return(
             <div className="app">
                 <Helmet
-                    titleTemplate="%s | HouseCup.gg">
+                    titleTemplate="Taste Wine Fest">
                     <meta name="description" content="Earn money on your own schedule
                         Expert snowplow Miners to your driveway or sidewalk in minutes. Download the app to start your order!" />
                     <title>Home</title>

@@ -1,22 +1,6 @@
 @import "../../css/theme.scss";
 
 /////////CARD STYLES/////////
-.card {
-    border-radius: 8px;
-    align-items: center;
-    border-style: solid;
-    border-color: $borderColor;
-    border-width: 1px;
-    min-width: 0;
-    display: block;
-
-    &.align-top {align-items: flex-start;}
-    &.align-stretch {align-items: stretch;}
-}
-.card:hover {
-    box-shadow: $boxShadow;
-    border-color: transparent;
-}
 @media (min-width: 768px) {
     .card {
         padding: 0.625rem;

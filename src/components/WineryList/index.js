@@ -1,1 +1,1 @@
-export { default } from './Attractions';
+export { default } from './WineryList';

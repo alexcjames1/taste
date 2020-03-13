@@ -16,4 +16,7 @@ export { default as BuyTickets } from './BuyTickets';
 export { default as LandingAbout } from './LandingAbout';
 export { default as Newsletter } from './Newsletter';
 
+export { default as WineryList } from './WineryList';
+export { default as WineryHero } from './WineryHero';
+
 export { default as Footer } from './Footer';
