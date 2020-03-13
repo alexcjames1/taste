@@ -5,11 +5,12 @@ import { Row, Col } from 'react-bootstrap';
 import { Section } from '../../components';
 import {Link} from 'react-router-dom';
 import tasteLogo from './images/taste-logo.png';
+import map from './images/map.png';
 
 export default class Footer extends Component {
     render() {
         return(
-            <Section className={style.section} kind="dark" size="normal">
+            <Section className={style.section} kind="dark" size="small">
                 <Row>
                     <Col xs="12" sm="8">
                         <div className={style.footerNavigation}>
@@ -34,35 +35,37 @@ export default class Footer extends Component {
                             </nav>
                         </div>
                         <div className={style.footnotes}>
-                            <div className={style.location}>
-                                <h3>LOCATION</h3>
-                                <p>
+                            <div className={classy(style.note, style.location)}>
+                                <h3 className={style.header}>LOCATION</h3>
+                                <p className={style.content}>
                                     13496 N Broadmore Drive
                                     <br/>
                                     Chicago, IL 60605
                                 </p>
-                                <p>
-                                    312 350 9327
+                                <p className={style.content}>
+                                    <a className={style.phone} href="tel:312-350-9327">312 350 9327</a>
                                 </p>
                             </div>
-                            <div className={style.social}>
-                                <h3>FOLLOW</h3>
-                                <ul>
-                                    <li>Facebook</li>
-                                    <li>Instagram</li>
-                                    <li>Twitter</li>
-                                    <li>Linkedin</li>
+                            <div className={classy(style.note, style.social)}>
+                                <h3 className={style.header}>FOLLOW</h3>
+                                <ul className={style.socialMediaList}>
+                                    <li><a className={style.socialMediaListItems} href="https://facebook.com" target="_blank">Facebook</a></li>
+                                    <li><a className={style.socialMediaListItems} href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                                    <li><a className={style.socialMediaListItems} href="https://twitter.com/" target="_blank">Twitter</a></li>
+                                    <li><a className={style.socialMediaListItems} href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
                                 </ul>
                             </div>
-                            <div className={style.opportunities}>
-                                <h3>NEWSLETTER SIGN-UP</h3>
-                                <h3>VOLUNTEER OPPORTUNITIES</h3>
+                            <div className={classy(style.note, style.opportunities)}>
+                                <h3 className={style.header}>NEWSLETTER SIGN-UP</h3>
+                                <h3 className={style.header}>VOLUNTEER OPPORTUNITIES</h3>
 
                             </div>
                         </div>
                     </Col>
                     <Col xs="12" sm="4">
-                        blah
+                        <a href="https://www.google.com/maps/place/Lincoln+Park+Zoo/@41.921102,-87.6356629,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd36b093a9a07:0x940cc06f90294db!8m2!3d41.921102!4d-87.6334742" target="_blank">
+                            <img className={style.map} src={map} alt="" />
+                        </a>
                     </Col>
                 </Row>
                 <Row className={style.legal}>

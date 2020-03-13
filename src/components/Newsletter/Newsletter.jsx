@@ -10,16 +10,16 @@ export default class Newsletter extends Component {
         return(
             <Section className={style.section} kind="secondary" size="normal">
                 <div className={style.contactForm}>
-                    <h3 className={style.formTitle}>Join our Newsletter</h3>
+                    <h3 className={style.formTitle}>JOIN OUR NEWSLETTER</h3>
                     <form action="https://formspree.io/moqlazjr" method="POST" className={style.form}>
                         <Row>
                             <Col>
                                 <div className={style.name}>
-                                    <input type="text" name="name" placeholder="FIRST NAME" className={classy(style.input, style.firstname)}/>
-                                    <input type="text" name="name" placeholder="LAST NAME" className={classy(style.input, style.lastname)}/>
+                                    <input type="text" name="name" placeholder="First Name" className={classy(style.input, style.firstname)}/>
+                                    <input type="text" name="name" placeholder="Last Name" className={classy(style.input, style.lastname)}/>
                                 </div>
-                                <input type="email" name="_replyto" placeholder="EMAIL" className={classy(style.input, style.email)}/>
-                                <input type="phone" name="phoneNumber" placeholder="PHONE NUMBER" className={classy(style.input, style.phone)}/>
+                                <input type="email" name="_replyto" placeholder="Email" className={classy(style.input, style.email)}/>
+                                <input type="phone" name="phoneNumber" placeholder="Phone Number" className={classy(style.input, style.phone)}/>
                             </Col>
                             <Col>
                                 <input type="text" name="name" placeholder="What Would You Like to See From This Newsletter?" className={classy(style.input, style.commentary)}/>

@@ -3,6 +3,7 @@
 /////////ROW STYLES/////////
 .legal {
     align-items:  center;
+    margin-top: 30px;
 }
 
 /////////ICON STYLES/////////
@@ -47,6 +48,23 @@
     border-bottom: 1px solid #fff;
 }
 .footnotes {
+    display: flex;
+    color: #fff;
+    margin-top: 30px;
+}
+.note {
     display: inline;
+    width: 30%;
+}
+.header {
+    margin-bottom: 15px;
+}
+.socialMediaList {
+    line-height: 1.6;
+}
+.socialMediaListItems {
+    color: #fff;
+}
+.phone {
     color: #fff;
 }

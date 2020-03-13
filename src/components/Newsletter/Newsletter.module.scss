@@ -23,6 +23,9 @@
     margin: 10px;
     border-radius: 4px;
 }
+::placeholder {
+    color: #fff;
+}
 .email {
     display: block;
     width: 100%;
