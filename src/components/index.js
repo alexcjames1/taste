@@ -19,4 +19,7 @@ export { default as Newsletter } from './Newsletter';
 export { default as WineryList } from './WineryList';
 export { default as WineryHero } from './WineryHero';
 
+export { default as PurveyorHero } from './PurveyorHero';
+export { default as PurveyorList } from './PurveyorList';
+
 export { default as Footer } from './Footer';
