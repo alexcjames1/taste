@@ -9,8 +9,6 @@ export { default as Header__nav } from './Header__nav';
 export { default as Logo } from './Logo';
 
 export { default as LandingHero } from './LandingHero';
-export { default as HouseCupFeatures } from './HouseCupFeatures';
-export { default as ArticleCards } from './ArticleCards';
 export { default as Attractions } from './Attractions';
 export { default as BuyTickets } from './BuyTickets';
 export { default as LandingAbout } from './LandingAbout';

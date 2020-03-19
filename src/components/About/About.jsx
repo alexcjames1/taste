@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './About.module.scss';
-import food from './images/food.png';
 import cork from './images/cork.png';
-import location from './images/location.png';
-import entertainment from './images/entertainment.png';
 import {MediaComponent} from '../';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section, Card } from '../../components';
