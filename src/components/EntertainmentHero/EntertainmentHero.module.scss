@@ -1,0 +1,16 @@
+@import "../../css/theme.scss";
+
+
+/////////BACKGROUND STYLES/////////
+.section {
+     background: url("./images/entertainment-hero.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+     position: relative;
+     height: 625px;
+}
+.heroContent {
+    max-width: 200px;
+    margin-top: 240px;
+}
