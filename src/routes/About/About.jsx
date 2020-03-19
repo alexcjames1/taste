@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper, LandingHero, Attractions, BuyTickets, LandingAbout, Newsletter } from '../../components';
+import {Heading, Header, AppWrapper, AboutHero, About, BuyTickets, Newsletter } from '../../components';
 import {Helmet} from "react-helmet";
 
-export default class Home extends Component {
+export default class AboutFest extends Component {
     render() {
         return (
           <AppWrapper>
-              <Helmet>
-                <title>Join Together</title>
-              </Helmet>
-              <LandingHero />
-              <Attractions />
+              <AboutHero />
+              <About />
               <BuyTickets />
-              <LandingAbout />
               <Newsletter />
           </AppWrapper>
         );
