@@ -25,4 +25,7 @@ export { default as PurveyorList } from './PurveyorList';
 export { default as EntertainmentHero } from './EntertainmentHero';
 export { default as EntertainmentList } from './EntertainmentList';
 
+export { default as VenueHero } from './VenueHero';
+export { default as VenueInfo } from './VenueInfo';
+
 export { default as Footer } from './Footer';

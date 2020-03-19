@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './EntertainmentHero.module.scss';
+import style from './VenueHero.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
 
-export default class EntertainmentHero extends Component {
+export default class VenueHero extends Component {
 
 
 

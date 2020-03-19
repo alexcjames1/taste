@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './EntertainmentList.module.scss';
+import style from './VenueInfo.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section, Card } from '../../components';
-import band from './images/band.png';
+import map from './images/map.png';
 
 
-export default class EntertainmentList extends Component {
+export default class VenueInfo extends Component {
 
 
 
@@ -15,7 +15,7 @@ export default class EntertainmentList extends Component {
             <Section className={style.section} kind="dark" size="small">
                 <Row>
                     <Col xs="12" sm="8" className={style.heroContent}>
-                        <h1>Our Entertainment</h1>
+                        <h1>Our Venue</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -31,7 +31,7 @@ export default class EntertainmentList extends Component {
                     <Col xs="12" sm="5" className={style.teamInfo}>
                         <div className={style.header}>
                             <div className={style.title}>
-                                <h2>The Captain Miller Band</h2>
+                                <h2>Lincoln Park Zoo</h2>
                             </div>
                         </div>
                         <div className={style.content}>
@@ -49,7 +49,7 @@ export default class EntertainmentList extends Component {
                     <Col xs="12" sm="6">
                         <div className={style.media}>
                             <div className={style.mediaFigure}>
-                                <img src={band} alt="#" />
+                                <img src={map} alt="#" />
                             </div>
                         </div>
                     </Col>
