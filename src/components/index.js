@@ -29,4 +29,7 @@ export { default as EntertainmentList } from './EntertainmentList';
 export { default as VenueHero } from './VenueHero';
 export { default as VenueInfo } from './VenueInfo';
 
+export { default as ContactHero } from './ContactHero';
+export { default as ContactInfo } from './ContactInfo';
+
 export { default as Footer } from './Footer';

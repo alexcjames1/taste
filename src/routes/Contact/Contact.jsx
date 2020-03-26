@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper, LandingHero, Attractions, BuyTickets, LandingAbout, Newsletter } from '../../components';
+import {Heading, Header, AppWrapper, ContactHero, ContactInfo, Newsletter } from '../../components';
 import {Helmet} from "react-helmet";
 
 export default class Home extends Component {
@@ -9,10 +9,8 @@ export default class Home extends Component {
               <Helmet>
                 <title>Join Together</title>
               </Helmet>
-              <LandingHero />
-              <Attractions />
-              <BuyTickets />
-              <LandingAbout />
+              <ContactHero />
+              <ContactInfo />
               <Newsletter />
           </AppWrapper>
         );

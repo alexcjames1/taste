@@ -57,3 +57,44 @@
 .rowBottom {
     margin-top: 30px;
 }
+.form {
+    padding: 30px;
+}
+.formContainer {
+    background-color: #3D441D;
+    border-radius: 4px;
+    height: 400px;
+}
+.input {
+    background-color: #5f6b27;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+::placeholder {
+    color: #fff;
+}
+.email {
+    display: block;
+    width: 100%;
+}
+.firstname {
+    width: 50%;
+}
+.lastname {
+    width: 50%;
+}
+.subject {
+    width: 100%;
+}
+.commentary {
+    width: 100%;
+    height: 200px;
+}
+.submitButton {
+    background-color: #fff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 4px;
+    color: #3D3935;
+}

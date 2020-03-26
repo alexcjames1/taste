@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './WineryHero.module.scss';
+import style from './ContactHero.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
 
-export default class WineryHero extends Component {
+export default class ContactHero extends Component {
 
 
 
