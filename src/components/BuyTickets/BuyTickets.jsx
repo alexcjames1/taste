@@ -15,18 +15,20 @@ export default class BuyTickets extends Component {
                     <Col xs="12" sm="5" className={style.teamInfo}>
                         <div className={style.header}>
                             <div className={style.title}>
-                                <h2>Consectetur purus</h2>
+                                <h2>Buy Tickets</h2>
                             </div>
                         </div>
                         <div className={style.content}>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Consectetur purus ut faucibus pulvinar elementum
-                                integer. Risus viverra adipiscing at in tellus integer
-                                feugiat scelerisque varius. Dictum at tempor commodo
-                                ullamcorper a.
+                                Join us at the Lincoln Park Zoo for Taste Wine Fest.
+                                Here you will enjoy a wide variety of local wines and
+                                learn about the process of wine-making from industry
+                                professionals. This event takes place on Saturday, May 30.
+                                Come and enjoy the wine!
                             </p>
+                        </div>
+                        <div className={style.button}>
+                            <a className={style.buttonTitle} href="google.com">Buy Tickets</a>
                         </div>
                     </Col>
 

@@ -8,29 +8,6 @@
     align-items: center;
 }
 
-/////////TEXT CONTAINER STYLES/////////
-.teamInfo {
-    margin-top: 30px;
-}
-@media (min-width: 575px) {
-    .teamInfo {
-        margin-left: 30px;
-        margin-top: 0px;
-    }
-}
-
-/////////SUBTITLE/////////
-.subTitle {
-    font-weight: $bold;
-    color: $baseFontColor;
-    font-size: $h4mobile;
-}
-@media (min-width: 575px) {
-    .subTitle {
-        font-size: $h4;
-    }
-}
-
 /////////TITLE/////////
 .title {
     font-size: $h2mobile;
@@ -43,15 +20,19 @@
         font-size: $h2;
     }
 }
-
-/////////CONTENT/////////
-.content {
-    color: $baseFontColor;
-    font-size: $bodyMobile;
+.buttonTitle {
+    color: #fff;
 }
-@media (min-width: 575px) {
-    .content {
-        color: $baseFontColor;
-        font-size: $body;
-    }
+.button {
+    font-size: 12px;
+    font-weight: 600;
+    background: #3D3935;
+    padding: 20px 40px 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+}
+.button:hover {
+    background: #5B5550;
 }

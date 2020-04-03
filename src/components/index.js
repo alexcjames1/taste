@@ -32,4 +32,7 @@ export { default as VenueInfo } from './VenueInfo';
 export { default as ContactHero } from './ContactHero';
 export { default as ContactInfo } from './ContactInfo';
 
+export { default as TicketHero } from './TicketHero';
+export { default as TicketInfo } from './TicketInfo';
+
 export { default as Footer } from './Footer';

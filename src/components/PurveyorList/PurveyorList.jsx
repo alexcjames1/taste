@@ -19,14 +19,11 @@ export default class WineryHero extends Component {
             <Section className={style.section} size="small">
                 <Row>
                     <Col xs="12" sm="8" className={style.heroContent}>
-                        <h1>Tincidunt lobortis</h1>
+                        <h1>2020 Spring Edition Food Purveyors</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum
+                            We are offering a wide variety of food purveyors to
+                            meet the needs of any hungry attendees. From fine dining,
+                            to street food, to snacks, we've got you covered.
                         </p>
                     </Col>
                 </Row>

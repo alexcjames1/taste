@@ -18,12 +18,12 @@ export default class Attractions extends Component {
 
                     <Col xs="12" sm="6">
                         <Link to={"/wineries"} className={style.navLink}>
-                            <Card image={wineries} title="Wineries" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="Learn More" className="card" />
+                            <Card image={wineries} title="Wineries" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
                         </Link>
                     </Col>
                     <Col xs="12" sm="6">
                         <Link to={"/purveyors"} className={style.navLink}>
-                            <Card image={food} title="Purveyors" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="Learn More" className="card" />
+                            <Card image={food} title="Purveyors" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
                         </Link>
                     </Col>
 
@@ -32,12 +32,12 @@ export default class Attractions extends Component {
 
                     <Col xs="12" sm="6">
                         <Link to={"/entertainment"} className={style.navLink}>
-                            <Card image={entertainment} title="Entertainment" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="Learn More" className="card" />
+                            <Card image={entertainment} title="Entertainment" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
                         </Link>
                     </Col>
                     <Col xs="12" sm="6">
                         <Link to={"/venue"} className={style.navLink}>
-                            <Card image={location} title="Venue" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="Learn More" className="card" />
+                            <Card image={location} title="Venue" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
                         </Link>
                     </Col>
 

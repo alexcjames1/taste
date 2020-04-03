@@ -20,17 +20,19 @@ export default class LandingAbout extends Component {
                                 <div className={style.Content}>
                                     <div className={style.Header}>
                                         <h2 className={style.heading}>
-                                            Consectetur purus
+                                            A complete experience for wine lovers
                                         </h2>
                                     </div>
                                     <div className={style.mediaBody}>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            aliqua. Consectetur purus ut faucibus pulvinar elementum
-                                            integer. Risus viverra adipiscing at in tellus integer
-                                            feugiat scelerisque varius. Dictum at tempor commodo
-                                            integer
+                                            Bring your thirst and your curiosity
+                                             and enjoy a fun night of wine
+                                             tasting at the Lincoln Park Zoo.
+                                             Enjoy a wide variety of local wines
+                                             and champagnes from across the
+                                             Chicago area, full access to the
+                                             Zoo and all exhibits, photo booth
+                                             and more!
                                         </p>
                                     </div>
                                 </div>

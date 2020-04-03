@@ -14,14 +14,16 @@ export default class WineryHero extends Component {
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
                     <Col xs="12" sm="4" className={style.heroContent}>
-                        <h1>Tincidunt lobortis</h1>
+                        <h1>Our Winery Family</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum
+                            The Taste Wine Fest showcases a variety of wines
+                            local to the Chicago area. The wineries in this
+                            region are well-known for producing fruit wines,
+                            especially cherry and apple, however new
+                            estate-grown grape wines are becoming popular as
+                            well. Our Wine Fest is dedicated to making your trip
+                            a memorable experience. So sip, swirl and savor the
+                            taste of Chicago.
                         </p>
                     </Col>
                 </Row>

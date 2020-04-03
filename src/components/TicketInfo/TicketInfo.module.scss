@@ -1,0 +1,100 @@
+@import "../../css/theme.scss";
+
+/////////SCAFFOLDING/////////
+.section .row {
+    align-items: center;
+}
+
+/////////TEXT CONTAINER STYLES/////////
+.teamInfo {
+    margin-top: 30px;
+}
+@media (min-width: 575px) {
+    .teamInfo {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+}
+
+/////////SUBTITLE/////////
+.subTitle {
+    font-weight: $bold;
+    font-size: $h4mobile;
+}
+@media (min-width: 575px) {
+    .subTitle {
+        font-size: $h4;
+    }
+}
+
+/////////TITLE/////////
+.title {
+    font-size: $h2mobile;
+    color: $baseFontColor;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (min-width: 575px) {
+    .title {
+        font-size: $h2;
+    }
+}
+
+/////////CONTENT/////////
+.content {
+    color: $secondaryColor;
+    font-size: $bodyMobile;
+}
+@media (min-width: 575px) {
+    .content {
+        color: $secondaryColor;
+        font-size: $body;
+    }
+}
+.rowTop {
+    margin-bottom: 30px;
+}
+.rowBottom {
+    margin-top: 30px;
+}
+.form {
+    padding: 30px;
+}
+.formContainer {
+    background-color: #3D441D;
+    border-radius: 4px;
+    height: 400px;
+}
+.input {
+    background-color: #5f6b27;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+::placeholder {
+    color: #fff;
+}
+.email {
+    display: block;
+    width: 100%;
+}
+.firstname {
+    width: 50%;
+}
+.lastname {
+    width: 50%;
+}
+.subject {
+    width: 100%;
+}
+.commentary {
+    width: 100%;
+    height: 200px;
+}
+.submitButton {
+    background-color: #fff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 4px;
+    color: #3D3935;
+}

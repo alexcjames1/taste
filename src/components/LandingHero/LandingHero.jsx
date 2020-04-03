@@ -15,14 +15,13 @@ export default class LandingHero extends Component {
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
                     <Col xs="12" sm="4" className={style.heroContent}>
-                        <h1>Tincidunt lobortis</h1>
+                        <h1>Join us for the official Taste Wine Fest</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum
+                            Taste Wine Fest is an elevated wine tasting
+                            experience that aims to stimulate all of your
+                            senses. Come throw back some great food and enjoy
+                            live musical performances, all while sampling some
+                            of the best varietals from around the world.
                         </p>
                     </Col>
                 </Row>
