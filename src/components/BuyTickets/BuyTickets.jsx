@@ -28,7 +28,7 @@ export default class BuyTickets extends Component {
                             </p>
                         </div>
                         <div className={style.button}>
-                            <a className={style.buttonTitle} href="google.com">Buy Tickets</a>
+                            <a className={style.buttonTitle} href="google.com">See More</a>
                         </div>
                     </Col>
 

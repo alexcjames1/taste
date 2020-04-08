@@ -17,14 +17,14 @@
 }
 @media (min-width: 575px) {
     .title {
-        font-size: $h2;
+        font-size: $h3;
     }
 }
 .buttonTitle {
     color: #fff;
 }
 .button {
-    font-size: 12px;
+    font-size: $body;
     font-weight: 600;
     background: #3D3935;
     padding: 20px 40px 20px 40px;
@@ -32,7 +32,11 @@
     text-align: center;
     color: #fff;
     width: 150px;
+    margin-top: 15px;
 }
 .button:hover {
     background: #5B5550;
+}
+.content {
+    font-size: $body;
 }

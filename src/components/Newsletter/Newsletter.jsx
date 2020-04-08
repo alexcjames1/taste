@@ -13,7 +13,7 @@ export default class Newsletter extends Component {
                     <h3 className={style.formTitle}>JOIN OUR NEWSLETTER</h3>
                     <form action="https://formspree.io/moqlazjr" method="POST" className={style.form}>
                         <Row>
-                            <Col>
+                            <Col xs="12" sm="6">
                                 <div className={style.name}>
                                     <input type="text" name="name" placeholder="First Name" className={classy(style.input, style.firstname)}/>
                                     <input type="text" name="name" placeholder="Last Name" className={classy(style.input, style.lastname)}/>
@@ -21,9 +21,13 @@ export default class Newsletter extends Component {
                                 <input type="email" name="_replyto" placeholder="Email" className={classy(style.input, style.email)}/>
                                 <input type="phone" name="phoneNumber" placeholder="Phone Number" className={classy(style.input, style.phone)}/>
                             </Col>
-                            <Col>
+                            <Col xs="12" sm="6">
                                 <input type="text" name="name" placeholder="What Would You Like to See From This Newsletter?" className={classy(style.input, style.commentary)}/>
-                                <a className={style.submitButton} href="google.com">SUBMIT</a>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col sm="12">
+                                <a className={style.submitButton} href="#">SUBMIT</a>
                             </Col>
                         </Row>
                     </form>

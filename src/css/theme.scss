@@ -29,25 +29,23 @@
 }
 
 /////////BACKGROUND COLORS/////////
-$primaryColor: #D5C0A3;
-$darkSection: #87b7bf;
-$lightSection: #fff;
+$primaryColor: #fff;
+$darkSection: #3D3935;
+$lightSection: #DDD9CE;
 
 /////////FONT FAMILIES/////////
-$fontFamily: "Europa-Regular";
+$bodyFamily: "Europa-Regular";
+$titleFamily: "Europa-Bold";
 
 /////////FONT COLORS/////////
 $baseFontColor: #3D3935;
 $secondaryColor: #fff;
+$accentColor: #f27177;
 
 /////////BUTTON COLORS/////////
-$lightButton: #fff;
-$darkButton: #347C9D;
-
-/////////FONT WEIGHTS/////////
-$normal: 400;
-$bold: 600;
-$black: 700;
+$primaryButton: #3D441D;
+$secondaryButton: #fff;
+$tertiaryButton: #3D3935;
 
 /////////FONT SIZES--DESKTOP/////////
 $heroBigFont: 3.75rem;
@@ -59,7 +57,7 @@ $h5: 1.125rem;
 $h6: 1rem;
 
 $lead: 1.125rem;
-$body: 1rem;
+$body: 14px;
 
 $subtitle: 0.875rem;
 
@@ -86,15 +84,3 @@ $borderColor: #d9d7d7;
 
 /////////BUTTON UNDERLINE/////////
 $underlineHover: underline;
-
-/////////MODAL COLOR STYLES/////////
-$helpColor: #F7BC14;
-
-//get-icon-color
-$selfColor: #84C5B4;
-
-//contribute-icon-color
-$contributeColor: #337B9C;
-
-//share-icon-color
-$shareColor: #374365;

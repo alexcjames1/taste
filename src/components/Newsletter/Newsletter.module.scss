@@ -1,72 +1,54 @@
 @import "../../css/theme.scss";
 
-//////////form boundaries//////////
 .contactForm {
-    background-color: #3D441D;
+    background: #3D441D;
     border-radius: 4px;
-    height: 400px;
 }
-
-//////////form title//////////
 .form {
     padding: 30px;
+    margin: 15px;
 }
 .formTitle {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
     color: #fff;
+    font-size: $h4;
 }
 .input {
     background-color: #5f6b27;
     border: none;
+    width: 190px;
     padding: 20px 10px 20px 10px;
-    margin: 10px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
     border-radius: 4px;
-}
-::placeholder {
-    color: #fff;
 }
 .email {
     display: block;
     width: 100%;
 }
-.firstname {
+.firstName {
     width: 50%;
+    display: inline;
 }
-.lastname {
+.lastName {
     width: 50%;
+    display: inline;
 }
 .phone {
     width: 100%;
 }
 .commentary {
     width: 100%;
-    height: 200px;
+    height: 150px;
+    padding: 20px 10px 20px 10px;
 }
 .submitButton {
     background-color: #fff;
-    padding: 20px 40px 20px 40px;
+    padding: 10px 40px 10px 40px;
     border-radius: 4px;
-    color: #3D3935;
+    color: $accentColor;
+    font-family: $titleFamily;
 }
-// <div className={style.contactForm}>
-//     <form action="https://formspree.io/moqqdpnr" method="POST" className={style.form}>
-//         <div className={style.contact}>
-//             <h3 className={style.formTitle}>Contact Information</h3>
-//             <input type="text" name="name" placeholder="Name" className={classy(style.input, style.name)}/>
-//             <input type="email" name="_replyto" placeholder="Email" className={classy(style.input, style.email)}/>
-//             <input type="phone" name="phoneNumber" placeholder="Phone Number" className={classy(style.input, style.phone)}/>
-//             <textarea name="comments" placeholder="What can we help you with?"className={classy(style.input, style.comment)}/>
-//         </div>
-//         <div className={style.productInfo}>
-//             <h3 className={style.formTitle}>Product Information</h3>
-//             <input type="text" name="product" placeholder="Product" className={classy(style.input, style.product)}/>
-//             <div className={style.specifications}>
-//                 <input type="text" name="size" placeholder="Size" className={classy(style.input, style.size)}/>
-//                 <input type="text" name="length" placeholder="Length" className={classy(style.input, style.length)}/>
-//             </div>
-//             <textarea name="requirements" placeholder="Additional Requirements"className={classy(style.input, style.comment)}/>
-//             <input type="submit" value="Submit" className={style.submit}/>
-//         </div>
-//     </form>
-// </div>

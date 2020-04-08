@@ -1,100 +1,58 @@
 @import "../../css/theme.scss";
 
-/////////SCAFFOLDING/////////
-.section .row {
-    align-items: center;
-}
-
-/////////TEXT CONTAINER STYLES/////////
-.teamInfo {
-    margin-top: 30px;
-}
-@media (min-width: 575px) {
-    .teamInfo {
-        margin-left: 30px;
-        margin-top: 0px;
-    }
-}
-
-/////////SUBTITLE/////////
-.subTitle {
-    font-weight: $bold;
-    font-size: $h4mobile;
-}
-@media (min-width: 575px) {
-    .subTitle {
-        font-size: $h4;
-    }
-}
-
-/////////TITLE/////////
-.title {
-    font-size: $h2mobile;
-    color: $baseFontColor;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-@media (min-width: 575px) {
-    .title {
-        font-size: $h2;
-    }
-}
-
-/////////CONTENT/////////
-.content {
-    color: $secondaryColor;
-    font-size: $bodyMobile;
-}
-@media (min-width: 575px) {
-    .content {
-        color: $secondaryColor;
-        font-size: $body;
-    }
-}
-.rowTop {
-    margin-bottom: 30px;
-}
-.rowBottom {
-    margin-top: 30px;
-}
-.form {
-    padding: 30px;
-}
-.formContainer {
-    background-color: #3D441D;
-    border-radius: 4px;
-    height: 400px;
-}
 .input {
-    background-color: #5f6b27;
-    border: none;
+    background-color: #fff;
+    border: 1px grey solid;
+    width: 190px;
     padding: 20px 10px 20px 10px;
-    margin: 10px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
     border-radius: 4px;
 }
 ::placeholder {
-    color: #fff;
+    color: $baseFontColor;
 }
 .email {
     display: block;
     width: 100%;
 }
-.firstname {
+.firstName {
     width: 50%;
+    display: inline;
 }
-.lastname {
+.lastName {
     width: 50%;
+    display: inline;
 }
-.subject {
+.phone {
     width: 100%;
 }
 .commentary {
     width: 100%;
-    height: 200px;
+    height: 150px;
+    padding: 20px 10px 20px 10px;
 }
 .submitButton {
-    background-color: #fff;
-    padding: 20px 40px 20px 40px;
+    background-color: $accentColor;
+    padding: 10px 40px 10px 40px;
     border-radius: 4px;
-    color: #3D3935;
+    color: #fff;
+    font-family: $titleFamily;
+}
+.legal {
+    color: #fff;
+    font-family: $bodyFamily;
+    font-size: 10px;
+}
+
+.media {
+    width: 600px;
+    transform: rotate(-25deg);
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.formTitle {
+    color: $baseFontColor;
+    margin-bottom: 15px;
 }

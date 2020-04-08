@@ -21,13 +21,7 @@
 
 /////////MEDIA HEADING/////////
 .mediaHeading {
-    font-weight: $bold;
-    font-size: $h6mobile;
-}
-@media (min-width: 768px) {
-    .mediaHeading {
-        font-size: $h6;
-    }
+    font-family: $titleFamily;
 }
 
 /////////MEDIA CONTENT/////////

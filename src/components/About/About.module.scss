@@ -3,3 +3,22 @@
 .image {
     width: 450px;
 }
+.heading {
+    font-size: $h3;
+    color: $baseFontColor;
+}
+.body {
+    font-size: $body;
+    color: $baseFontColor;
+}
+.subheading {
+    font-size: $h4;
+    color: $accentColor;
+}
+.session {
+    font-family: $titleFamily;
+}
+.tastingSession {
+    font-size: $body;
+    color: $baseFontColor;
+}

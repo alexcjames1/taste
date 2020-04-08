@@ -14,7 +14,7 @@ export default class ContactHero extends Component {
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
                     <Col xs="12" sm="4" className={style.heroContent}>
-                        <h1>Tincidunt lobortis</h1>
+                        <h1 className={style.heading}>Tincidunt lobortis</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna

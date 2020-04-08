@@ -19,7 +19,7 @@ export default class ContactInfo extends Component {
     render() {
         return(
             <Section className={style.section} size="normal">
-                <Row className={style.rowTop}>
+                <Row className={style.row}>
 
                     <Col xs="12" sm="3">
                         <h3>Reach Out</h3>
