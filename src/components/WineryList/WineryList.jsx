@@ -18,7 +18,7 @@ import wildBlossom from './images/wild-blossom.png';
 export default class WineryList extends Component {
     render() {
         return(
-            <Section className={style.section} size="normal">
+            <Section className={style.section} size="special">
                 <Row className={style.rowTop}>
 
                     <Col xs="12" sm="6">
