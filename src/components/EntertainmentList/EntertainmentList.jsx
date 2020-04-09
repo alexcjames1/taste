@@ -15,7 +15,7 @@ export default class EntertainmentList extends Component {
             <Section className={style.section} kind="dark" size="small">
                 <Row>
                     <Col xs="12" sm="8" className={style.heroContent}>
-                        <h1>Our Entertainment</h1>
+                        <h2 className={style.heading}>Our Entertainment</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -31,17 +31,17 @@ export default class EntertainmentList extends Component {
                     <Col xs="12" sm="5" className={style.teamInfo}>
                         <div className={style.header}>
                             <div className={style.title}>
-                                <h2>The Captain Miller Band</h2>
+                                <h4>The Captain Miller Band</h4>
                             </div>
                         </div>
                         <div className={style.content}>
-                            <p>
+                            <p className={style.body}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Consectetur purus ut faucibus pulvinar elementum
                                 integer. Risus viverra adipiscing at in tellus integer
                                 feugiat scelerisque varius. Dictum at tempor commodo
-                                ullamcorper a.
+                                ullamcorper elementum.
                             </p>
                         </div>
                     </Col>

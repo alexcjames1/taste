@@ -22,26 +22,32 @@ export default class ContactInfo extends Component {
                 <Row className={style.row}>
 
                     <Col xs="12" sm="3">
-                        <h3>Reach Out</h3>
-                        <p>Hi, we're happy to hear from you, please fill in this form and we will get back to you as soon as possible.</p>
+                        <h3 className={style.heading}>Reach Out</h3>
+                        <p className={style.body}>Hi, we're happy to hear from you, please fill in this form and we will get back to you as soon as possible.</p>
                     </Col>
                     <Col xs="12" sm="9">
                         <div className={style.formContainer}>
                             <form action="https://formspree.io/moqlazjr" method="POST" className={style.form}>
-                                <Row>
-                                    <Col>
-                                        <div className={style.name}>
-                                            <input type="text" name="name" placeholder="First Name" className={classy(style.input, style.firstname)}/>
-                                            <input type="text" name="name" placeholder="Last Name" className={classy(style.input, style.lastname)}/>
-                                        </div>
-                                        <input type="email" name="_replyto" placeholder="Email" className={classy(style.input, style.email)}/>
-                                        <input type="Subject" name="Subject" placeholder="Subject" className={classy(style.input, style.subject)}/>
-                                    </Col>
-                                    <Col>
-                                        <input type="text" name="name" placeholder="What Would You Like to See From This Newsletter?" className={classy(style.input, style.commentary)}/>
-                                        <a className={style.submitButton} href="google.com">SUBMIT</a>
-                                    </Col>
-                                </Row>
+
+                                <div>
+                                    <input type="text" name="name" placeholder="First Name" className={classy(style.input, style.firstName)}/>
+                                </div>
+                                <div>
+                                    <input type="text" name="name" placeholder="Last Name" className={classy(style.input, style.lastName)}/>
+                                </div>
+                                <div>
+                                    <input type="email" name="_replyto" placeholder="Email" className={classy(style.input, style.email)}/>
+                                </div>
+                                <div>
+                                    <input type="Subject" name="Subject" placeholder="Subject" className={classy(style.input, style.subject)}/>
+                                </div>
+                                <div>
+                                    <input type="text" name="message" placeholder="Your message" className={classy(style.input, style.commentary)}/>
+                                </div>
+                                <div className={style.buttonContainer}>
+                                    <a className={style.submitButton} href="google.com">SUBMIT</a>
+                                </div>
+
                             </form>
                         </div>
                     </Col>

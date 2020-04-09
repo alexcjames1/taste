@@ -10,7 +10,7 @@ export default class Newsletter extends Component {
         return(
             <Section className={style.section} kind="secondary" size="normal">
                 <div className={style.contactForm}>
-                    <h3 className={style.formTitle}>JOIN OUR NEWSLETTER</h3>
+                    <h4 className={style.formTitle}>JOIN OUR NEWSLETTER</h4>
                     <form action="https://formspree.io/moqlazjr" method="POST" className={style.form}>
                         <Row>
                             <Col xs="12" sm="6">
@@ -25,7 +25,7 @@ export default class Newsletter extends Component {
                                 <input type="text" name="name" placeholder="What Would You Like to See From This Newsletter?" className={classy(style.input, style.commentary)}/>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className={style.buttonContainer}>
                             <Col sm="12">
                                 <a className={style.submitButton} href="#">SUBMIT</a>
                             </Col>

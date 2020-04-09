@@ -10,15 +10,10 @@
 
 /////////TITLE/////////
 .title {
-    font-size: $h2mobile;
+    font-size: $h2;
     color: $baseFontColor;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-@media (min-width: 575px) {
-    .title {
-        font-size: $h3;
-    }
 }
 .buttonTitle {
     color: #fff;

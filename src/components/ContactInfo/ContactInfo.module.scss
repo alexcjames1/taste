@@ -5,19 +5,20 @@
     margin-top: 30px;
 }
 
-
-.contactForm {
-    background: #3D441D;
-    border-radius: 4px;
+.heading {
+    font-size: $h2;
+    color: $baseFontColor;
+}
+.body {
+    font-size: $body;
+    color: $baseFontColor;
 }
 .form {
-    padding: 30px;
-    margin: 15px;
+    text-align: center;
 }
 .input {
     background-color: #fff;
     border: none;
-    width: 190px;
     padding: 20px 10px 20px 10px;
     height: 30px;
     margin-left: 15px;
@@ -29,24 +30,25 @@
     color: $baseFontColor;
 }
 .email {
-    display: block;
-    width: 100%;
+    width: 300px;
 }
 .firstName {
-    width: 50%;
-    display: inline;
+    width: 300px;
 }
 .lastName {
-    width: 50%;
-    display: inline;
+    width: 300px;
 }
-.phone {
-    width: 100%;
+.subject {
+    width: 300px;
 }
 .commentary {
-    width: 100%;
-    height: 150px;
+    width: 300px;
+    height: 95px;
     padding: 20px 10px 20px 10px;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
 }
 .submitButton {
     background-color: $baseFontColor;
@@ -54,4 +56,8 @@
     border-radius: 4px;
     color: #fff;
     font-family: $titleFamily;
+}
+.row {
+    display: flex;
+    align-items: center;
 }
