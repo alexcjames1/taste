@@ -17,12 +17,11 @@ export default class VenueInfo extends Component {
                     <Col xs="12" sm="8" className={style.heroContent}>
                         <h1>Our Venue</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum
+                            As one of Chicago's most well-known attractions, the
+                            Lincoln Park Zoo was chosen as a representation of
+                            what the Chicago area has to offer. Since the
+                            beginning of Taste Wine Fest in 2007, we have been
+                            proud to call the Lincoln Park Zoo our home.
                         </p>
                     </Col>
                 </Row>
@@ -36,12 +35,13 @@ export default class VenueInfo extends Component {
                         </div>
                         <div className={style.content}>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Consectetur purus ut faucibus pulvinar elementum
-                                integer. Risus viverra adipiscing at in tellus integer
-                                feugiat scelerisque varius. Dictum at tempor commodo
-                                ullamcorper a.
+                                The Lincoln Park Zoo is a 35-acre park located
+                                in Chicago, IL. The zoo was founded in 1868,
+                                making it one of the oldest zoos in North
+                                America.The Lincoln Park Zoo is home to a wide
+                                variety of animals, including big cats, polar
+                                bears, reptiles, monkeys, and other species
+                                totaling approximately 1,100 animals.
                             </p>
                         </div>
                     </Col>
