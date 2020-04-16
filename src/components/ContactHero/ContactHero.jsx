@@ -14,14 +14,14 @@ export default class ContactHero extends Component {
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
                     <Col xs="12" sm="4" className={style.heroContent}>
-                        <h1 className={style.heading}>Tincidunt lobortis</h1>
+                        <h1 className={style.heading}>Contact Us</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum
+                            Thank you for your interest in Taste Wine Fest. We
+                            would love to hear from you. If you have an questions,
+                            comments, or needs, you can contact us by phone, email,
+                            or fill out the quick
+                            <br></br>
+                            form below.
                         </p>
                     </Col>
                 </Row>
