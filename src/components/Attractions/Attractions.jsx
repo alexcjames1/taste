@@ -23,7 +23,7 @@ export default class Attractions extends Component {
                     </Col>
                     <Col xs="12" sm="6">
                         <Link to={"/purveyors"} className={style.navLink}>
-                            <Card image={food} title="Purveyors" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
+                            <Card image={food} title="Purveyors" paragraph="With street food and fine dining options, there’s many pairing opportunities this spring." button="Learn More" className="card" />
                         </Link>
                     </Col>
 
@@ -32,12 +32,12 @@ export default class Attractions extends Component {
 
                     <Col xs="12" sm="6">
                         <Link to={"/entertainment"} className={style.navLink}>
-                            <Card image={entertainment} title="Entertainment" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
+                            <Card image={entertainment} title="Entertainment" paragraph="Based on feedback from previous patrons, here’s our entertainment pick for our May event." button="Learn More" className="card" />
                         </Link>
                     </Col>
                     <Col xs="12" sm="6">
                         <Link to={"/venue"} className={style.navLink}>
-                            <Card image={location} title="Venue" paragraph="White wine, red wine, and everything in between. These are our winery picks for May 2020." button="Learn More" className="card" />
+                            <Card image={location} title="Venue" paragraph="We’ve chosen to return to our favorite wine drinking spot, the amazing Lincoln Park Zoo!" button="Learn More" className="card" />
                         </Link>
                     </Col>
 
