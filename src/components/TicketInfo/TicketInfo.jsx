@@ -45,7 +45,7 @@ export default class TicketInfo extends Component {
                         </div>
                     </Col>
                     <Col xs="12" sm="8">
-                        <img className={style.media} src={wineSpill} alt="#" />
+                        <img className={style.media} src={wineSpill} alt="Wine Spill" />
                     </Col>
                 </Row>
             </Section>

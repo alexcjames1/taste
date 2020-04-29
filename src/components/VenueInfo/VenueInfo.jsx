@@ -49,7 +49,7 @@ export default class VenueInfo extends Component {
                     <Col xs="12" sm="6">
                         <div className={style.media}>
                             <div className={style.mediaFigure}>
-                                <img src={map} alt="#" />
+                                <img src={map} alt="Event Location Map" />
                             </div>
                         </div>
                     </Col>

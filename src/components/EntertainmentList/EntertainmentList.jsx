@@ -49,7 +49,7 @@ export default class EntertainmentList extends Component {
                     <Col xs="12" sm="6">
                         <div className={style.media}>
                             <div className={style.mediaFigure}>
-                                <img src={band} alt="#" />
+                                <img src={band} alt="Taste Wine Fest Entertainment" />
                             </div>
                         </div>
                     </Col>

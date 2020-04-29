@@ -11,7 +11,7 @@ export default class Logo extends Component {
 
                 <div className={style.logo}>
                     <Link to={"/"} className={style.navLink}>
-                        <img src={tasteLogo} alt="" />
+                        <img src={tasteLogo} alt="Taste Wine Fest Logo" />
                     </Link>
                 </div>
 

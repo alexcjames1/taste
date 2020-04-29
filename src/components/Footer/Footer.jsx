@@ -64,7 +64,7 @@ export default class Footer extends Component {
                     </Col>
                     <Col xs="12" sm="4">
                         <a href="https://www.google.com/maps/place/Lincoln+Park+Zoo/@41.921102,-87.6356629,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd36b093a9a07:0x940cc06f90294db!8m2!3d41.921102!4d-87.6334742" target="_blank">
-                            <img className={style.map} src={map} alt="" />
+                            <img className={style.map} src={map} alt="Event Location Map" />
                         </a>
                     </Col>
                 </Row>

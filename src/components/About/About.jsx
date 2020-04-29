@@ -60,7 +60,7 @@ export default class About extends Component {
                         </div>
                     </Col>
                     <Col xs="12" sm="6">
-                        <img src={cork} alt="#" className={style.image} />
+                        <img src={cork} alt="Corks" className={style.image} />
                     </Col>
                 </Row>
             </Section>

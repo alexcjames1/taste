@@ -35,7 +35,7 @@ export default class BuyTickets extends Component {
                     <Col xs="12" sm="6">
                         <div className={style.media}>
                             <div className={style.mediaFigure}>
-                                <img src={wineImage} alt="#" />
+                                <img src={wineImage} alt="Bottles of Wine" />
                             </div>
                         </div>
                     </Col>
