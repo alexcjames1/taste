@@ -23,12 +23,12 @@ export default class WineryList extends Component {
 
                     <Col xs="12" sm="6">
                         <a href="https://prpwine.com/" target="_blank">
-                            <Card image={prpWine} title="PRP Wine International" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={prpWine} title="PRP Wine International" paragraph="PRP offers high quality products all across the US and continues to expand offerings and knowledge of wine." className="card" />
                         </a>
                     </Col>
                     <Col xs="12" sm="6">
                         <a href="https://www.thepourvineyard.com/" target="_blank">
-                            <Card image={thePour} title="The Pour Winery" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={thePour} title="The Pour Winery" paragraph="The Pour Vineyard winery has used hard work for the past 150 years; from the hand-hewn beams in our renovated barn, to the passion and labor that has been put into the vineyard. We have created a place for people to gather, enjoy good wine, laughter, and memories." className="card" />
                         </a>
                     </Col>
 

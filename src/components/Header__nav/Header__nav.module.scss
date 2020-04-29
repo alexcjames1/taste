@@ -8,6 +8,9 @@
 .navLink {
     color: #fff;
 }
+.navLink:hover {
+    color: $accentColor;
+}
 .button {
     background: #fff;
     padding: 15px 25px 15px 25px;

@@ -42,7 +42,7 @@ export default class ContactInfo extends Component {
                                     <input type="Subject" name="Subject" placeholder="Subject" className={classy(style.input, style.subject)}/>
                                 </div>
                                 <div>
-                                    <input type="text" name="message" placeholder="Your message" className={classy(style.input, style.commentary)}/>
+                                    <input type="text" name="message" placeholder="Your Message" className={classy(style.input, style.commentary)}/>
                                 </div>
                                 <div className={style.buttonContainer}>
                                     <a className={style.submitButton} href="google.com">SUBMIT</a>

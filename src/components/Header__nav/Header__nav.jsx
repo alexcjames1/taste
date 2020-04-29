@@ -22,7 +22,7 @@ export default class Header__nav extends React.Component {
                             <Link to={"/contact"} className={style.navLink}>CONTACT</Link>
                         </li>
                         <li className={style.menuItem}>
-                            <Link to={"/tickets"} className={classy(style.navLink, style.button)}>TICKETS</Link>
+                            <Link to={"/tickets"} className={ style.button}>TICKETS</Link>
                         </li>
                     </ul>
                 </nav>

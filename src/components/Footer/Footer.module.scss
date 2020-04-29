@@ -15,6 +15,9 @@
 .icon a {
     color: #fff;
 }
+.icon a:hover {
+    color: $accentColor;
+}
 
 /////////COPYRIGHT STYLES/////////
 .copyright {
@@ -64,6 +67,9 @@
 }
 .socialMediaListItems {
     color: #fff;
+}
+.socialMediaListItems:hover {
+    color: $accentColor;
 }
 .phone {
     color: #fff;
