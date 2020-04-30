@@ -23,12 +23,20 @@ export default class WineryList extends Component {
 
                     <Col xs="12" sm="6">
                         <a href="https://prpwine.com/" target="_blank">
-                            <Card image={prpWine} title="PRP Wine International" paragraph="PRP offers high quality products all across the US and continues to expand offerings and knowledge of wine." className="card" />
+                            <Card image={prpWine} title="PRP Wine International" paragraph=
+                                "PRP offers high quality products all across the US and
+                                continues to expand offerings and knowledge of wine."
+                                className="card" />
                         </a>
                     </Col>
                     <Col xs="12" sm="6">
                         <a href="https://www.thepourvineyard.com/" target="_blank">
-                            <Card image={thePour} title="The Pour Winery" paragraph="The Pour Vineyard winery has used hard work for the past 150 years; from the hand-hewn beams in our renovated barn, to the passion and labor that has been put into the vineyard. We have created a place for people to gather, enjoy good wine, laughter, and memories." className="card" />
+                            <Card image={thePour} title="The Pour Winery" paragraph=
+                                "The Pour Vineyard winery has used hard work for the
+                                past 150 years; We have created a place
+                                for people to gather, enjoy good wine, laughter, and
+                                memories."
+                                className="card" />
                         </a>
                     </Col>
 
@@ -37,12 +45,16 @@ export default class WineryList extends Component {
 
                     <Col xs="12" sm="6">
                         <a href="https://augusthillwinery.com/" target="_blank">
-                            <Card image={augustHill} title="August Hill Winery" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={augustHill} title="August Hill Winery" paragraph=
+                                "We aim to educate clients and believe in creating
+                                bonds with clients that other wineries cannot
+                                match."
+                                className="card" />
                         </a>
                     </Col>
                     <Col xs="12" sm="6">
                         <a href="https://iscbubbly.com/" target="_blank">
-                            <Card image={isc} title="Illinois Sparkling Co." paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={isc} title="Illinois Sparkling Co." paragraph="We hand-blend each ISC sparkling wine with patience and finesse, making an exceptional drinking experience." className="card" />
                         </a>
                     </Col>
 
@@ -51,12 +63,18 @@ export default class WineryList extends Component {
 
                     <Col xs="12" sm="6">
                         <a href="https://www.diamondwineimporters.com/" target="_blank">
-                            <Card image={diamondWine} title="Diamond Wine Importers" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={diamondWine} title="Diamond Wine Importers" paragraph=
+                                "Our goal is to  educate the wine market about local
+                                varietals and the spirit of outstanding producers."
+                                className="card" />
                         </a>
                     </Col>
                     <Col xs="12" sm="6">
                         <a href="https://www.wildblossommeadery.com/" target="_blank">
-                            <Card image={wildBlossom} title="Wild Blossom Meadery &amp; Winery" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={wildBlossom} title="Wild Blossom Meadery &amp; Winery" paragraph=
+                                "Wild Blossom Winery is the first winery in Chicago and the only producer
+                                of mead in the Northern Illinois area."
+                                className="card" />
                         </a>
                     </Col>
 
@@ -65,12 +83,18 @@ export default class WineryList extends Component {
 
                     <Col xs="12" sm="6">
                         <a href="https://www.bonobowinery.com/index#" target="_blank">
-                            <Card image={bonobo} title="Bonobo Winery" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={bonobo} title="Bonobo Winery" paragraph=
+                                "Our vision is to bring approachability to the local wine scene, by allowing for an educational experience."
+                                className="card" />
                         </a>
                     </Col>
                     <Col xs="12" sm="6">
                         <a href="https://www.alsacerocks.com/" target="_blank">
-                            <Card image={alsace} title="Alsace Rocks" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." className="card" />
+                            <Card image={alsace} title="Alsace Rocks" paragraph=
+                                "We produce quality wines that are
+                                expressions of the fruit, providing wines with
+                                exceptional flavor."
+                                className="card" />
                         </a>
                     </Col>
 
