@@ -27,34 +27,39 @@ export default class WineryHero extends Component {
                         </p>
                     </Col>
                 </Row>
-                <Row>
+                <div className={style.purveyors}>
+                    <Row>
 
-                    <Col xs="12" sm="6">
-                        <a href="https://prpwine.com/" target="_blank">
-                            <Card image={capital} title="The Capital Grill" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="See Menu" className="card" />
-                        </a>
-                    </Col>
-                    <Col xs="12" sm="6">
-                        <a href="https://www.thepourvineyard.com/" target="_blank">
-                            <Card image={elske} title="Elske" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="See Menu" className="card" />
-                        </a>
-                    </Col>
+                        <Col xs="12" sm="6">
+                            <a href="https://www.thecapitalgrille.com/home" target="_blank">
+                                <Card image={capital} title="The Capital Grill" paragraph=
+                                    "The Capital Grille is a fine dining restaurant. They artfully prepare dishes with fresh ingredients." button="See Menu" className="card" />
+                            </a>
+                        </Col>
+                        <Col xs="12" sm="6">
+                            <a href="https://elskerestaurant.com/" target="_blank">
+                                <Card image={elske} title="Elske" paragraph=
+                                    "The wood-fired hearth, local food, and farm-driven menu are all important pieces of their menu." button="See Menu" className="card" />
+                            </a>
+                        </Col>
 
-                </Row>
-                <Row>
+                    </Row>
+                    <Row>
 
-                    <Col xs="12" sm="6">
-                        <a href="https://augusthillwinery.com/" target="_blank">
-                            <Card image={prosecco} title="Prosecco Ristorante" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="See Menu" className="card" />
-                        </a>
-                    </Col>
-                    <Col xs="12" sm="6">
-                        <a href="https://iscbubbly.com/" target="_blank">
-                            <Card image={soulKantina} title="Soul Kantina" paragraph="Lorem ipsum dolor sit amet, consectetur elit, tempor incididunt ut dolore magna aliqua." button="See Menu" className="card" />
-                        </a>
-                    </Col>
+                        <Col xs="12" sm="6">
+                            <a href="http://proseccochicago.com/" target="_blank">
+                                <Card image={prosecco} title="Prosecco Ristorante" paragraph=
+                                    "Classic, high-end Italian dishes in a romantic, art-filled dining room that's reminiscent of Venice." button="See Menu" className="card" />
+                            </a>
+                        </Col>
+                        <Col xs="12" sm="6">
+                            <a href="https://www.soulkantina.com/" target="_blank">
+                                <Card image={soulKantina} title="Soul Kantina" paragraph="Soul Kantina is a mobile catering company that specializes in delicious street food and events." button="See Menu" className="card" />
+                            </a>
+                        </Col>
 
-                </Row>
+                    </Row>
+                </div>
             </Section>
         );
     }
