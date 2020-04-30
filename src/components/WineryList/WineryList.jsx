@@ -32,10 +32,8 @@ export default class WineryList extends Component {
                     <Col xs="12" sm="6">
                         <a href="https://www.thepourvineyard.com/" target="_blank">
                             <Card image={thePour} title="The Pour Winery" paragraph=
-                                "The Pour Vineyard winery has used hard work for the
-                                past 150 years; We have created a place
-                                for people to gather, enjoy good wine, laughter, and
-                                memories."
+                                "We enjoy sharing our passion with wine-lovers and
+                                provide an experience for you to learn about our wine."
                                 className="card" />
                         </a>
                     </Col>
