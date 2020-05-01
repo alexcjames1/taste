@@ -14,14 +14,13 @@ export default class TicketHero extends Component {
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
                     <Col xs="12" sm="4" className={style.heroContent}>
-                        <h1>Tincidunt lobortis</h1>
+                        <h1 className={style.heading}>Don't Miss Taste Wine Fest This Spring</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum
+                            Bring your thirst and your curiosity and enjoy a fun
+                            night of wine tasting at the Lincoln Park Zoo. Enjoy
+                            more than 150 different wines and champagnes from
+                            local Chicago wineries, full access to the Zoo and
+                            all exhibits, a photo booth and more!
                         </p>
                     </Col>
                 </Row>

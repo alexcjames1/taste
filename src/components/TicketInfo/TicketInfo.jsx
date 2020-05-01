@@ -25,23 +25,19 @@ export default class TicketInfo extends Component {
                                 <input type="email" name="_replyto" placeholder="Email" className={classy(style.input, style.email)}/>
                                 <input type="phone" name="phoneNumber" placeholder="Phone Number" className={classy(style.input, style.phone)}/>
 
-                                <input type="text" name="name" placeholder="What Would You Like to See From This Newsletter?" className={classy(style.input, style.commentary)}/>
+                                <select className={classy(style.input, style.ticketOptions)} name="Ticket Options">
+                                      <option value="Session1VIP">Session 1 VIP</option>
+                                      <option value="Session1GA">Session 1 GA</option>
+                                      <option value="Session2VIP">Session 2 VIP</option>
+                                      <option value="Session2GA">Session 2 GA</option>
+                                      <option value="Session3VIP">Session 3 VIP</option>
+                                      <option value="Session3GA">Session 3 GA</option>
+                                </select>
+
+                                <input type="text" name="name" placeholder="Additional Comments" className={classy(style.input, style.commentary)}/>
 
                                 <a className={style.submitButton} href="#">SUBMIT</a>
                             </form>
-                        </div>
-                        <div>
-                            <p className={style.legal}>
-                                This offer is final sale and nonrefundable.  Event will go on rain or shine.
-                                Redemption of this offer is subject to normal availability. Pass is not
-                                shareable or transferable. Pass is valid only the Session purchased.  All
-                                wine tastings stop 15 minutes prior to the end of the session time.  Pass
-                                must be redeemed on the date of the event between the Session time purchased
-                                otherwise forfeited.  Wineries subject to change without notice depending on
-                                availability. Must be 21 or older to participate.  Venue reserve the right to
-                                deny entry to any individual without recourse.  Price does not include tax,
-                                if applicable.  Never Drink and Drive.
-                            </p>
                         </div>
                     </Col>
                     <Col xs="12" sm="8">

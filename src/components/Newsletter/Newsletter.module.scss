@@ -17,15 +17,8 @@
     font-size: $h4;
 }
 .input {
-    background-color: #5f6b27;
-    border: none;
-    width: 190px;
-    padding: 20px 10px 20px 10px;
-    height: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    border-radius: 4px;
+    @include input;
+    @include inputDark;
 }
 input::placeholder {
     color: #fff;

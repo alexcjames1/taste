@@ -12,11 +12,11 @@
     color: $accentColor;
 }
 .button {
-    background: #fff;
+    background: $primaryColor;
     padding: 15px 25px 15px 25px;
     border-radius: 4px;
     text-align: center;
-    color: #3D3935;
+    color: $baseFontColor;
     width: 150px;
 }
 .button:hover {

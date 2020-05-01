@@ -1,20 +1,24 @@
 /////////MIXINS/////////
 
-/////////ICONS/////////
-@mixin icon {
-    color: #fff;
-    height: 50px;
-    width: 50px;
-    box-shadow: 1px 2px 25px 0 rgba(0,0,0,0.05);
-    border-radius: 8px;
-    font-weight: 900;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -25px;
-    margin-left: 18px;
+/////////INPUTS/////////
+@mixin input {
+    width: 190px;
+    padding: 20px 10px 20px 10px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
 }
+@mixin inputLight {
+    background-color: #fff;
+    border: 1px grey solid;
+}
+
+@mixin inputDark {
+    background-color: #5f6b27;
+    border: none;
+}
+
 /////////BORDER/////////
 @mixin border {
     border-color: $borderColor;
@@ -26,6 +30,21 @@
 @mixin borderHover {
     background-color: #fff;
     border-style: none;
+}
+
+/////////BUTTON SIZES/////////
+@mixin buttonTall {
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+}
+@mixin buttonShort {
+    background-color: #fff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 4px;
+    color: $accentColor;
+    font-family: $titleFamily;
 }
 
 /////////BACKGROUND COLORS/////////

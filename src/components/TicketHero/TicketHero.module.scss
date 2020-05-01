@@ -8,10 +8,12 @@
      background-size: cover;
      overflow: hidden;
      position: relative;
-     height: 625px;
 }
 .heroContent {
     color: #fff;
     max-width: 200px;
     margin-top: 240px;
+}
+.heading {
+    font-size: $h1;
 }
