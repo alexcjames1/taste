@@ -14,7 +14,7 @@ export default class LandingHero extends Component {
         return(
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
-                    <Col xs="12" sm="4" className={style.heroContent}>
+                    <Col xs="9" sm="4" className={style.heroContent}>
                         <h1 className={style.heading}>Join us for the official Taste Wine Fest</h1>
                         <p>
                             Taste Wine Fest is an elevated wine tasting

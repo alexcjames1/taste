@@ -4,7 +4,7 @@ import style from './Footer.module.scss';
 import { Row, Col } from 'react-bootstrap';
 import { Section } from '../../components';
 import {Link} from 'react-router-dom';
-import tasteLogo from './images/taste-logo.png';
+import tasteLogo from './images/logo.png';
 import map from './images/map.png';
 
 export default class Footer extends Component {

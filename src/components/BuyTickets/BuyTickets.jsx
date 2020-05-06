@@ -5,6 +5,7 @@ import wineImage from './images/wine-image.jpg';
 import {MediaComponent} from '../';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
+import {Link} from 'react-router-dom';
 
 export default class BuyTickets extends Component {
     render() {
@@ -12,7 +13,15 @@ export default class BuyTickets extends Component {
             <Section className={style.section} kind="dark" size="normal">
                 <Row className={style.row}>
 
-                    <Col xs="12" sm="5" className={style.teamInfo}>
+                    <Col xs="12" sm="6">
+                        <div className={style.media}>
+                            <div className={style.mediaFigure}>
+                                <img src={wineImage} alt="Bottles of Wine" />
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col xs="12" sm="5">
                         <div className={style.header}>
                             <div className={style.title}>
                                 <h2>Buy Tickets</h2>
@@ -28,15 +37,7 @@ export default class BuyTickets extends Component {
                             </p>
                         </div>
                         <div className={style.button}>
-                            <a className={style.buttonTitle} href="google.com">See More</a>
-                        </div>
-                    </Col>
-
-                    <Col xs="12" sm="6">
-                        <div className={style.media}>
-                            <div className={style.mediaFigure}>
-                                <img src={wineImage} alt="Bottles of Wine" />
-                            </div>
+                            <Link to={"/tickets"} className={style.buttonTitle}>See More</Link>
                         </div>
                     </Col>
 
