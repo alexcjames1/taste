@@ -13,7 +13,7 @@ export default class TicketHero extends Component {
         return(
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
-                    <Col xs="12" sm="4" className={style.heroContent}>
+                    <Col xs="9" sm="4" className={style.heroContent}>
                         <h1 className={style.heading}>Don't Miss Taste Wine Fest This Spring</h1>
                         <p>
                             Bring your thirst and your curiosity and enjoy a fun

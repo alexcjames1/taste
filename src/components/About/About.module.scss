@@ -1,7 +1,19 @@
 @import "../../css/theme.scss";
 
 .image {
-    width: 450px;
+    width: 300px;
+    transform: rotate(90deg);
+    margin-left: 50px;
+    margin-top: -70px;
+    margin-bottom: -80px;
+}
+@media (min-width: 768px) {
+    .image {
+        width: 450px;
+        margin-left: 0px;
+        margin-top: 0px;
+        transform: rotate(0deg);
+    }
 }
 .heading {
     font-size: $h2;

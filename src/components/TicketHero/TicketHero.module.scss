@@ -8,11 +8,27 @@
      background-size: cover;
      overflow: hidden;
      position: relative;
+     height: 525px;
 }
+@media (min-width: 768px) {
+    .section {
+         overflow: hidden;
+         position: relative;
+         height: 725px;
+    }
+}
+
+
 .heroContent {
     color: #fff;
-    max-width: 200px;
-    margin-top: 240px;
+    width: 50px;
+    margin-top: 200px;
+}
+@media (min-width: 768px) {
+    .heroContent {
+        max-width: 200px;
+        margin-top: 240px;
+    }
 }
 .heading {
     font-size: $h1;

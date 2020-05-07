@@ -1,22 +1,36 @@
 @import "../../css/theme.scss";
 
+/////////STRUCTURAL STYLES/////////
+.row {
+    align-items: center;
+}
+
+/////////IMAGE STYLES/////////
 .mediaFigure{
-    width: 275px;
+    width: 120px;
     transform: rotate(35deg);
-    margin-left: -150px;
+    margin-left: -15px;
+    margin-bottom: -180px;
 }
-.mediaBody {
-    font-size: $body;
+@media (min-width: 768px) {
+    .mediaFigure{
+        width: 215px;
+        transform: rotate(35deg);
+        margin-left: -150px;
+        margin-bottom: -100px;
+    }
 }
- .Content {
-    margin-left: 130px;
+
+/////////TEXT STYLES/////////
+.Content {
+   margin-left: 130px;
 }
 .heading {
     color: $accentColor;
 }
-.row {
-    align-items: center;
-}
 .heading {
     font-size: $h3;
+}
+.mediaBody {
+    font-size: $body;
 }

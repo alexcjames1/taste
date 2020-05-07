@@ -13,7 +13,7 @@ export default class ContactHero extends Component {
         return(
             <Section className={style.section} kind="secondary" size="normal">
                 <Row>
-                    <Col xs="12" sm="4" className={style.heroContent}>
+                    <Col xs="9" sm="4" className={style.heroContent}>
                         <h1 className={style.heading}>Contact Us</h1>
                         <p>
                             Thank you for your interest in Taste Wine Fest. We

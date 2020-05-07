@@ -5,10 +5,19 @@
 .section {
      background: url("./images/wine-tasting.png");
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: contain;
      overflow: hidden;
      position: relative;
-     height: 625px;
+     height: 325px;
+     top: 70px;
+
+}
+@media (min-width: 768px) {
+    .section {
+         background-size: cover;
+         height: 625px;
+         top: 0;
+    }
 }
 .heroContent {
     max-width: 200px;
