@@ -46,8 +46,16 @@
 
 .media {
     transform: rotate(15deg);
-    margin-left: 50%;
+    margin-top: 70px;
 }
+@media (min-width: 768px) {
+    .media {
+        transform: rotate(15deg);
+        margin-left: 50%;
+        margin-top: 0px;
+    }
+}
+
 .formTitle {
     color: $baseFontColor;
     margin-bottom: 15px;

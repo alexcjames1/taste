@@ -1,0 +1,84 @@
+@import "../../css/theme.scss";
+
+/********** NAV **********/
+
+.nav {
+    position: relative;
+}
+.nav__trigger {
+    display: block;
+}
+.nav__trigger--expanded {
+    display: none;
+}
+.nav__menuList {
+    display: none;
+}
+.nav--expanded .nav__menuList {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 200px;
+    margin-right: -30px;
+}
+
+
+
+/********** NAVIGATION **********/
+
+.navigation__menuList {
+    align-items: center;
+}
+.navigation__menuList > li {
+    padding: 0;
+}
+.navigation__menuList .nav__link {
+    color: #000;
+    font-family: europa-regular;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.navigation__menuList .nav__link:hover {
+    color: $accentColor;
+}
+.navigation__menuTrigger .nav__link {
+    color: inherit;
+    font-size: 1.5rem;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .navigation__menuTrigger {
+        display: none;
+        background-color: transparent
+    }
+    .navigation__menuList {
+        display: flex;
+        background-color: transparent;
+    }
+    .navigation__menuList li {
+        display: inline;
+    }
+    .navigation__menuList .nav__link {
+        color: #fff;
+    }
+}
+
+////////BUTTON STYLES
+
+.nav__menuButton {
+    background: $primaryColor;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+}
+.nav__button {
+    color: #000;
+}
