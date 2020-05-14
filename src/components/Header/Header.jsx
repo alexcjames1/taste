@@ -12,13 +12,13 @@ export default class Header extends Component {
                 <Section>
                     <Row className={style.row}>
 
-                        <Col xs="6" sm="6">
+                        <Col xs="12" sm="6">
                             <div className={style.logo}>
                                     <Logo />
                             </div>
                         </Col>
 
-                        <Col xs="6" sm="6" className={style.navigation}>
+                        <Col xs="12" sm="6" className={style.navigation}>
                             <Header__nav />
                         </Col>
 

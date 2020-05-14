@@ -12,13 +12,24 @@
     color: $accentColor;
 }
 .button {
-    background: $primaryColor;
-    padding: 15px 25px 15px 25px;
-    border-radius: 4px;
-    text-align: center;
-    color: $baseFontColor;
+    color: #fff;
     width: 150px;
 }
+@media (min-width: 768px) {
+    .button {
+        background: $primaryColor;
+        padding: 15px 25px 15px 25px;
+        border-radius: 4px;
+        text-align: center;
+        color: $baseFontColor;
+        width: 150px;
+    }
+}
 .button:hover {
-    background: #e6e6e6;
+    color: $accentColor;
+}
+@media (min-width: 768px) {
+    .button:hover {
+        background: #e6e6e6;
+    }
 }
