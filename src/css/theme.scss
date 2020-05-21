@@ -38,6 +38,9 @@
     border-radius: 4px;
     text-align: center;
     width: 150px;
+    color: $primaryColor;
+    font-family: $titleFamily;
+    font-size: $body;
 }
 @mixin buttonShort {
     background-color: #fff;
@@ -47,10 +50,31 @@
     font-family: $titleFamily;
 }
 
+@mixin heroContent {
+    color: #fff;
+    animation: fadeIn ease 3s;
+    animation-fill-mode: forwards;
+    animation: fadein 4s;
+    width: 50px;
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    @media (min-width: 768px) {
+        .heroContent {
+            max-width: 200px;
+        }
+    }
+}
+
+
 /////////BACKGROUND COLORS/////////
 $primaryColor: #fff;
 $darkSection: #3D3935;
 $lightSection: #DDD9CE;
+$tertiarySection: #3D441D;
 
 /////////FONT FAMILIES/////////
 $bodyFamily: "Europa-Regular";
@@ -65,6 +89,11 @@ $accentColor: #f27177;
 $primaryButton: #3D441D;
 $secondaryButton: #fff;
 $tertiaryButton: #3D3935;
+
+/////////BUTTON HOVER COLORS/////////
+$primaryButtonHover: #5f6b27;
+$secondaryButtonHover: #e6e6e6;
+$tertiaryButtonHover: #5B5550;
 
 /////////FONT SIZES--DESKTOP/////////
 $heroBigFont: 3.75rem;
@@ -99,7 +128,17 @@ $boxShadow: 0 5px 15px 0 rgba(0,0,0,0.07),
             0 15px 35px 0 rgba(50,50,93,0.1);
 
 /////////BORDER COLOR/////////
-$borderColor: #d9d7d7;
+$borderColor: #DDD9CE;
 
 /////////BUTTON UNDERLINE/////////
 $underlineHover: underline;
+
+/////////SPACING/////////
+$smallSpace: 15px;
+$mediumSpace: 30px;
+$largeSpace: 60px;
+
+/////////ALIGNMENT/////////
+$right: right;
+$center: center;
+$left: left;

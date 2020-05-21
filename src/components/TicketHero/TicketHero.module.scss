@@ -20,21 +20,12 @@
 
 
 .heroContent {
-    color: #fff;
-    width: 50px;
+    @include heroContent;
     margin-top: 200px;
-    animation: fadeIn ease 3s;
-    animation-fill-mode: forwards;
-    animation: fadein 4s;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 @media (min-width: 768px) {
     .heroContent {
-        max-width: 200px;
         margin-top: 240px;
     }
 }

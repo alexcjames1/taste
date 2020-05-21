@@ -1,19 +1,19 @@
 @import "../../css/theme.scss";
 
 .contactForm {
-    background: #3D441D;
+    background: $tertiarySection;
     border-radius: 4px;
 }
 .form {
     padding: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-left: $smallSpace;
+    margin-right: $smallSpace;
+    margin-bottom: $smallSpace;
 }
 .formTitle {
-    text-align: center;
+    text-align: $center;
     padding-top: 30px;
-    color: #fff;
+    color: $secondaryColor;
     font-size: $h4;
 }
 .input {
@@ -21,7 +21,7 @@
     @include inputDark;
 }
 input::placeholder {
-    color: #fff;
+    color: $secondaryColor;
 }
 .email {
     display: block;
@@ -44,7 +44,7 @@ input::placeholder {
     padding-top: 15px;
 }
 .submitButton {
-    background-color: #fff;
+    background-color: $primaryColor;
     padding: 10px 40px 10px 40px;
     border-radius: 4px;
     color: $accentColor;

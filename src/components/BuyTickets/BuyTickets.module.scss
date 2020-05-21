@@ -2,7 +2,7 @@
 
 /////////SCAFFOLDING/////////
 .section {
-    background-color: #DDD9CE;
+    background-color: $lightSection;
 }
 .section .row {
     align-items: center;
@@ -12,31 +12,24 @@
 .title {
     font-size: $h2;
     color: $baseFontColor;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: $mediumSpace;
+    margin-bottom: $smallSpace;
 }
 @media (min-width: 768px) {
     .title {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: $smallSpace;
+        margin-bottom: $smallSpace;
     }
 }
 .buttonTitle {
-    color: #fff;
+    color: $secondaryColor;
 }
 .button {
-    font-size: $body;
-    font-weight: 600;
-    background: #3D3935;
-    padding: 20px 40px 20px 40px;
-    border-radius: 4px;
-    text-align: center;
-    color: #fff;
-    width: 150px;
-    margin-top: 15px;
+    background: $tertiaryButton;
+    @include buttonTall;
 }
 .button:hover {
-    background: #5B5550;
+    background: $tertiaryButtonHover;
 }
 .content {
     font-size: $body;

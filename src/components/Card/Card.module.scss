@@ -15,7 +15,7 @@
 /////////MEDIA STYLES/////////
 .media {
     display: flex;
-    margin-right: 1.25rem;
+    margin-right: $mediumSpace;
     align-items: center;
     padding: 2px;
 }
@@ -23,32 +23,26 @@
 /////////MEDIA HEADING/////////
 .mediaHeading {
     font-family: $titleFamily;
+    font-size: $h5;
 }
 
 /////////MEDIA CONTENT/////////
 .mediaContent {
-    color: #212121;
+    color: $baseFontColor;
 }
 
 /////////MEDIA BODY/////////
 .mediaBody {
     color: $baseFontColor;
-    font-size: 14px;
-    margin-top: 7px;
+    font-size: $body;
+    margin-top: $smallSpace;
 }
 
 /////////MEDIA BUTTON/////////
 .mediaButton {
-    font-size: 12px;
-    font-weight: 600;
-    background: #3D441D;
-    padding: 20px 40px 20px 40px;
-    border-radius: 4px;
-    text-align: center;
-    color: #fff;
-    width: 150px;
-
+    @include buttonTall;
+    background: $primaryButton;
 }
 .mediaButton:hover {
-    background: #5f6b27;
+    background: $primaryButtonHover;
 }

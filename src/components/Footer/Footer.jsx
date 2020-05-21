@@ -57,7 +57,7 @@ export default class Footer extends Component {
                             </div>
                             <div className={classy(style.note, style.opportunities)}>
                                 <h3 className={style.header}>NEWSLETTER SIGN-UP</h3>
-                                <h3 className={style.header}>VOLUNTEER OPPORTUNITIES</h3>
+                                <h3 className={classy(style.header, style.volunteer)}>VOLUNTEER OPPORTUNITIES</h3>
 
                             </div>
                         </div>
@@ -78,13 +78,13 @@ export default class Footer extends Component {
                     <Col className={style.socialMedia}>
                         <ul className={style.socialMediaLinks}>
                             <li className={style.icon}>
-                                <a href="https://twitter.com/Audentio" target="_blank"><i className="mdi mdi-twitter"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i className="mdi mdi-twitter"></i></a>
                             </li>
                             <li className={style.icon}>
-                                <a href="https://www.facebook.com/Audentio/" target="_blank"><i className="mdi mdi-facebook-box"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i className="mdi mdi-facebook-box"></i></a>
                             </li>
                             <li className={style.icon}>
-                                <a href="https://www.linkedin.com/company/audentio/" target="_blank"><i className="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/" target="_blank"><i className="mdi mdi-linkedin"></i></a>
                             </li>
                         </ul>
                     </Col>

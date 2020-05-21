@@ -63,17 +63,51 @@
     width: 30%;
 }
 .header {
-    margin-bottom: 15px;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+@media (min-width: 768px) {
+    .header {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
 }
 .socialMediaList {
     line-height: 1.6;
 }
 .socialMediaListItems {
     color: #fff;
+    font-size: 12px;
+}
+@media (min-width: 768px) {
+    .socialMediaListItems {
+        color: #fff;
+        font-size: 16px;
+    }
 }
 .socialMediaListItems:hover {
     color: $accentColor;
 }
 .phone {
     color: #fff;
+}
+.content {
+    font-size: 12px;
+    line-height: 1.6;
+}
+@media (min-width: 768px) {
+    .content {
+        font-size: 16px;
+    }
+}
+.volunteer {
+    line-height: 1.6;
+}
+.map {
+    margin-top: 15px;
+}
+@media (min-width: 768px) {
+    .map {
+        margin-top: 0px;
+    }
 }

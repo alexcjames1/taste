@@ -18,7 +18,7 @@ export default class Card extends Component {
                         <img className={style.image} src={image} />
                     </div>
                     <div className={classy(style.mediaContent, contentClass)}>
-                        {title ? <Heading tag="h6" className={style.mediaHeading}>{title}</Heading> : ''}
+                        {title ? <Heading tag="h5" className={style.mediaHeading}>{title}</Heading> : ''}
                         {paragraph ? <p className={classy(style.mediaBody, bodyClass)}>{paragraph}</p> : ''}
                         {button ? <div className={classy(style.mediaButton, buttonClass)}>{button}</div> : ''}
                     </div>
